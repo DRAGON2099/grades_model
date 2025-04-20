@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Steel Prediction</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Sidebar -->
+    <section id="sidebar">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#one">Model Overview</a></li>
+            <li><a href="#two">Model Details</a></li>
+            <li><a href="#three">Get in touch</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Intro -->
+      <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+          <h1>Grade Predictor</h1>
+          <p>Model to predict Mechanical Properties of Any Grade of Steel.</p>
+          <ul class="actions">
+            <li><a href="#one" class="button scrolly">Proceed to Model Overview and Details</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- One -->
+      <section id="one" class="wrapper style2 spotlights">
+        <section>
+          <a href="#" class="image"
+            ><img src="images/accuracy_image.jpeg" alt="" data-position="center center"
+          /></a>
+          <div class="content">
+            <div class="inner">
+              <h2>Accuracy & Reliability</h2>
+              <p>
+                Our model has been extensively trained using Real-Time Data and tested using 6 months of In Lab Testing Results.
+              </p>
+              <ul class="actions">
+                <li><a href="accuracy.html" class="button">Learn more</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <a href="#" class="image"
+            ><img src="images/software_image.jpeg" alt="" data-position="top center"
+          /></a>
+          <div class="content">
+            <div class="inner">
+              <h2>Software Side</h2>
+              <p>This project deploys the use of a number of Web Technologies, ML algorithms, Data Cleaning Techniques & Supporting Tools and Libraries.</p>
+              <ul class="actions">
+                <li><a href="software_details.html" class="button">Learn more</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <a href="#" class="image"
+            ><img src="images/how_to_use_image.jpeg"alt="" data-position="25% 25%"
+          /></a>
+          <div class="content">
+            <div class="inner">
+              <h2>How to Use</h2>
+              <p>
+                Complete breakdown of how to use the Model to Predict properties of any grade of Steel.
+              </p>
+              <ul class="actions">
+                <li><a href="how_to_use.html" class="button">Proceed to Model</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Two -->
+      <section id="two" class="wrapper style3 fade-up">
+        <div class="inner">
+          <h2>Model Details</h2>
+          <p>Deconstruction of the Model:</p>
+          <div class="features">
+            <section>
+              <span class="icon solid major fa-code"></span>
+              <h3>Data Collection & Cleaning</h3>
+              <p><ul>
+                <li>Detecting extraneous information and dropping empty rows</li>
+                <li>Handling Missing and invalid Data Values</li>
+                <li>Useful data sorted then used for model training & features</li>
+                <li>Proper Data Alignment & Scaling measures</li>
+              </ul></p>
+            </section>
+            <section>
+              <span class="icon solid major fa-lock"></span>
+              <h3>Linear Regression</h3>
+              <p><ul>
+                <li>Models Linear Relationship between input features & a continous target variable</li>
+                <li>Serves as reference benchmark for initial performance</li>
+                <li>Simple, fast, interpretable & understanding attribute influence</li>
+                <li>Used to validate trends & assess feature importance</li>
+              </ul></p>
+            </section>
+            <section>
+              <span class="icon solid major fa-cog"></span>
+              <h3>Random Forest Regressor</h3>
+              <p><ul>
+                <li>For real-time prediction.</li>
+                <li>Fast and reliable for tabular data</li>
+                <li>Able to handle Non-Linear Data</li>
+                <li>Properly handles Missing Data and Outliers</li>
+              </ul></p>
+            </section>
+            <section>
+              <span class="icon solid major fa-desktop"></span>
+              <h3>XGBoost Regressor</h3>
+              <p><ul>
+                <li>High Performance base learner in stacked models</li>
+                <li>Excellent accuracy and efficiency</li>
+                <li>Built-in regularization to prevent overfitting</li>
+                <li>Handles complex interactions between features</li>
+              </ul></p>
+            </section>
+            <section>
+              <span class="icon solid major fa-link"></span>
+              <h3>Artifical Neural Network(ANN)</h3>
+              <p>
+                <ul>
+                  <li>Implemented as MLPRegressor(Multi-Layer Perceptron)</li>
+                  <li>Meta-learner in stacking</li>
+                  <li>Captures Complex, Non-Linear feature interactions</li>
+                  <li>Final stage of stacking regressor Pipeline</li>
+                </ul>
+              </p>
+            </section>
+            <section>
+              <span class="icon major fa-gem"></span>
+              <h3>Stacking Regressor(Ensemble Learning)</h3>
+              <p><ul>
+                <li>Combines multiple base models into a stronger unified model</li>
+                <li>Leverages strenghts of different algorithms</li>
+                <li>Improves accuracy and generalization</li>
+                <li>Combines Random Forest & XGBoost for ANN</li>
+              </ul></p>
+            </section>
+          </div>
+          <ul class="actions">
+            <li><a href="prediction_model_page.html" class="button"><h1>Use Model</h1></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Three -->
+      <section id="three" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h2>Get in touch</h2>
+          <p>
+            Fill up the form below in order to send a message pertaining to
+            Feedback, Grievances and User Experience.
+          </p>
+          <div class="split style1">
+            <section>
+              <form method="post" action="#">
+                <div class="fields">
+                  <div class="field half">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                  </div>
+                  <div class="field half">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                  </div>
+                  <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                  </div>
+                </div>
+                <ul class="actions">
+                  <li><a href="" class="button submit">Send Message</a></li>
+                </ul>
+              </form>
+            </section>
+            <section>
+              <ul class="contact">
+                <li>
+                  <h3>Address</h3>
+                  <span
+                    >KNIC, DANAGADI<br />
+                    JAJPUR, PIN-755026<br />
+                    ODISHA, INDIA</span
+                  >
+                </li>
+                <li>
+                  <h3>Email</h3>
+                  <a href="#">swarnabh.paul@jindalstainless.com</a>
+                </li>
+                <li>
+                  <h3>Phone</h3>
+                  <span>(91)-9163089948</span>
+                </li>
+                <li>
+                  <h3>Social</h3>
+                  <ul class="icons">
+                    <li>
+                      <a href="#" class="icon brands fa-github"
+                        ><span class="label">GitHub</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="icon brands fa-linkedin-in"
+                        ><span class="label">LinkedIn</span></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; Untitled. All rights reserved.</li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

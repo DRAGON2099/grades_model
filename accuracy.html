@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model Accuracy & Data Reliability</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #f4f6f8;
+        color: #2c3e50;
+        padding: 2rem;
+        line-height: 1.7;
+      }
+      h1,
+      h2 {
+        color: #1a237e;
+      }
+      .section {
+        background-color: #ffffff;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+      ul {
+        padding-left: 1.5rem;
+      }
+      ul li {
+        margin-bottom: 0.5rem;
+      }
+      .highlight {
+        font-weight: bold;
+        color: #3949ab;
+      }
+      .img-sample {
+        width: 100%;
+        max-width: 700px;
+        margin: 1rem 0;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📈 Model Accuracy & Data Reliability Overview</h1>
+
+    <div class="section">
+      <h2>🧠 Model Performance Summary</h2>
+      <ul>
+        <li>
+          The machine learning model has been tested using historical steel
+          production data.
+        </li>
+        <li>
+          Predictions focus on:
+          <span class="highlight">Yield Strength (0.2%)</span>,
+          <span class="highlight">Ultimate Tensile Strength (UTS)</span>, and
+          <span class="highlight">Elongation at 50mm G.L</span>.
+        </li>
+        <li>
+          Average prediction accuracy measured across 6 months of test data:
+        </li>
+        <ul>
+          <li>
+            <span class="highlight">Yield Strength:</span> R² ≈ 0.89, RMSE ≈
+            16.3 MPa
+          </li>
+          <li>
+            <span class="highlight">UTS:</span> R² ≈ 0.91, RMSE ≈ 15.0 MPa
+          </li>
+          <li>
+            <span class="highlight">Elongation:</span> R² ≈ 0.87, RMSE ≈ 2.8%
+          </li>
+        </ul>
+        <li>
+          The ensemble stacking model ensures generalization and accuracy across
+          variations.
+        </li>
+      </ul>
+      <img
+        src="images/performance_bar_chart.png"
+        alt="Performance Bar Chart"
+        class="img-sample"
+      />
+    </div>
+
+    <div class="section">
+      <h2>📊 Data Reliability</h2>
+      <ul>
+        <li>
+          The dataset used includes over
+          <span class="highlight">6 months of mechanical test results</span>
+          from lab-tested production batches.
+        </li>
+        <li>
+          Features are derived from actual production data including chemical
+          composition and rolling parameters.
+        </li>
+        <li>
+          Data cleaning involved handling missing values, removing anomalies,
+          and aligning features across batches.
+        </li>
+        <li>
+          Test samples were verified against certified quality lab outputs,
+          ensuring result consistency.
+        </li>
+      </ul>
+      <img
+        src="images/error_distribution.png"
+        alt="Prediction Error Scatter Plot"
+        class="img-sample"
+      />
+    </div>
+
+    <div class="section">
+      <h2>✅ Reliability in Industrial Use</h2>
+      <ul>
+        <li>Tested across different production routes and line conditions.</li>
+        <li>
+          Validated against real-world lab results with high correlation (R² >
+          0.85 consistently).
+        </li>
+        <li>
+          Integrated in production workflow for
+          <span class="highlight">pre-evaluation of product batches</span>
+          before destructive testing.
+        </li>
+      </ul>
+      <img
+        src="images/time_series_accuracy.png"
+        alt="Time Series Accuracy Chart"
+        class="img-sample"
+      />
+    </div>
+
+    <div class="section">
+      <h2>📊 Suggested Visualizations</h2>
+      <ul>
+        <li>
+          Bar charts comparing predicted vs. actual values for Yield Strength,
+          UTS, and Elongation.
+        </li>
+        <li>
+          Scatter plots showing the distribution of errors across batches.
+        </li>
+        <li>
+          Time-series graphs demonstrating prediction accuracy over the 6-month
+          window.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🧾 Additional Options</h2>
+      <ul>
+        <li>Download full model performance report as PDF.</li>
+        <li>
+          Export charts and summaries for presentation or documentation
+          purposes.
+        </li>
+        <li>
+          Embed the reliability section into internal dashboards for real-time
+          visibility.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
